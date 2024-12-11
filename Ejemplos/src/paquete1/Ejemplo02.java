@@ -26,14 +26,22 @@ public class Ejemplo02 {
         System.out.println(arreglo1[4]);
         
         // arreglo de tipo double
+        // imprime el 0.0 porque es un arreglo de tipo double y no tiene 
+        // asignado un valor
+        
         double[] arreglo2 = new double[5];
         System.out.println(arreglo2[0]);
         
         // arreglo de tipo String
+        // imprime null porque es un arreglo de tipo String y no tiene 
+        // ningun valor asignado
+        
         String[] arreglo4 = new String[5];
         System.out.println(arreglo4[0]);
         
         // arreglo de tipo boleano
+        // imprime falso pórque es un arreglo de tipo boolean y no tiene
+        // asignado ningun valor
         boolean[] arreglo5 = new boolean[5];
         System.out.println(arreglo5[0]);
     }
